@@ -131,39 +131,6 @@ flowchart TD
 
 ---
 
-## 📂 Project Structure
-
-```text
-ai-interview-preparation/
-│
-├── client/                    # React frontend
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── services/
-│       ├── hooks/
-│       ├── utils/
-│       └── App.jsx
-│
-├── server/                    # Node.js backend
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   └── server.js
-│
-├── .gitignore
-├── README.md
-└── package.json
-```
-
-*This is a suggested structure. Modify it to reflect your actual folders and filenames.*
-
----
-
 ## ⚙️ Getting Started
 
 ### Prerequisites
@@ -233,53 +200,7 @@ Open the local URL printed by your frontend development server.
 
 ---
 
-## 🔌 API Documentation
 
-The following is a suggested API design. Update the endpoints and request formats to match your implementation.
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| POST | `/api/auth/register` | Register a candidate |
-| POST | `/api/auth/login` | Authenticate a candidate |
-| POST | `/api/interview/generate` | Generate interview questions |
-| POST | `/api/roadmap/generate` | Generate a preparation roadmap |
-| GET | `/api/interview/history` | Retrieve saved interview sessions |
-| GET | `/api/user/profile` | Retrieve the candidate profile |
-
-### Example Request
-
-```json
-{
-  "resumeText": "Frontend developer skilled in React and JavaScript",
-  "jobDescription": "Looking for a React developer with REST API experience",
-  "interviewType": "technical"
-}
-```
-
-### Example Response
-
-```json
-{
-  "success": true,
-  "data": {
-    "questions": [
-      {
-        "question": "How does React manage component state?",
-        "category": "React",
-        "difficulty": "Intermediate"
-      }
-    ],
-    "recommendations": [
-      "Revise React hooks",
-      "Practice REST API integration"
-    ]
-  }
-}
-```
-
-*These examples illustrate a possible API contract, not verified responses from the running application.*
-
----
 
 ## 🧠 AI Implementation
 
