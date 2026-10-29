@@ -289,20 +289,6 @@ Contributions, suggestions, and bug reports are welcome.
 
 ---
 
-## 👨‍💻 Author
-
-**Rohan Byale**
-
-- GitHub: [@rohanbyale](https://github.com/rohanbyale)
-- LinkedIn: [Rohan Byale](https://www.linkedin.com/in/rohan-byale/)
-
----
-
-## 📜 License
-
-This project is available under the MIT License if you choose to distribute it under those terms. Add a `LICENSE` file to the repository before claiming that the project is MIT-licensed.
-
----
 
 <p align="center">
   <b>Built to make interview preparation smarter with MERN and Generative AI.</b>
